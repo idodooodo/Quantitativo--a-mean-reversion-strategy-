@@ -1,6 +1,6 @@
 # Python Backtesting Code for Mean Reversion Strategy
 
-## This repository contains Python backtesting code for the **Mean Reversion Strategy** presented by Quantitativo. The strategy is designed to identify potential price reversals based on historical price behavior and execute trades accordingly.
+## This repository contains Python backtesting code for the article **A Mean Reversion Strategy with 2.11 Sharpe** presented by Quantitativo. 
 
 ## Files
 
