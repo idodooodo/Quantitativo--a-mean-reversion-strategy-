@@ -11,11 +11,13 @@ The three python files include the first strategy experiment, followed by the ma
 
 ## User Instructions
 Here is how to test this backtesting strategy : 
-1. Create virtual environment
+1. Create a virtual environment
 2. Install the following modules in the terminal : 
 ```bash
 pip install backtesting
 pip install pandas
 pip install matplotlib
-pip install yfinance '''
+pip install yfinance
+```
+
 3. Copy and paste the code of 1st experiment, merket regime filter and dynamic stop losses strategy 
