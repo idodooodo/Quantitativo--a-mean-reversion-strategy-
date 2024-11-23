@@ -1,6 +1,6 @@
 # Python Backtesting Code for Mean Reversion Strategy
 
-## This repository contains Python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
+## This repository contains python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
 
 I tried to reproduce the three strategies the author quantitativo used in his article. 
 
@@ -19,5 +19,8 @@ pip install pandas
 pip install matplotlib
 pip install yfinance
 ```
-
-3. Copy and paste the code, in order, **`first_experiment.py`** then   **`market_regime_filter.py`** followed by **`dynamic_stop_losses.py`** in the article order.
+3. Downgrade bokeh:
+```bash
+pip install bokeh==3.1.0
+```
+4. Copy and paste the code, in order, **`first_experiment.py`** then   **`market_regime_filter.py`** followed by **`dynamic_stop_losses.py`** in the article order.
