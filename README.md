@@ -8,9 +8,10 @@ Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversio
 ## User Instructions
 Here is how to test this backtesting strategy : 
 1. Create virtual environment
-2. Install the following modules: 
+2. Install the following modules in the terminal : 
 ```bash
 pip install backtesting
 pip install pandas
 pip install matplotlib
 pip install yfinance
+3. Copy and paste the code of 1st experiment, merket regime filter and dynamic stop losses strategy 
