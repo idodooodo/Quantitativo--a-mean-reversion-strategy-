@@ -4,7 +4,7 @@
 
 I tried to reproduce the three strategies the author quantitativo used in his article. 
 
-\nHere is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
+Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
 
 The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance.
 
