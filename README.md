@@ -1,18 +1,26 @@
 # Python Backtesting Code for Mean Reversion Strategy
 
-This repository contains Python backtesting code for the **Mean Reversion Strategy** presented by Quantitativo. The strategy is designed to identify potential price reversals based on historical price behavior and execute trades accordingly.
+## This repository contains python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
 
-## Files
+I tried to reproduce the three strategies the author quantitativo used in his article. 
 
-- **first_experiment.py**: Code for the initial experiment applying the mean reversion strategy.
-- **market_regime_filter.py**: Code for the market filter used to refine entry and exit points based on market conditions.
-- **dynamic_stop_losses.py**: Code implementing dynamic stop losses to manage risk and protect profits.
-- **performance_plot.png**: A plot comparing the strategy performance to Buy & Hold on a logarithmic scale.
-- **drawdown_plot.png**: A plot showing the drawdown of the strategy vs Buy & Hold.
+Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
 
-## Requirements
+The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance from 1999 to 2006.
 
-Install the necessary dependencies with:
 
+## User Instructions
+Here is how to test this backtesting strategy : 
+1. Create a virtual environment
+2. Install the following modules in the terminal : 
 ```bash
-pip install -r requirements.txt
+pip install backtesting
+pip install pandas
+pip install matplotlib
+pip install yfinance
+```
+3. Downgrade bokeh:
+```bash
+pip install bokeh==3.1.0
+```
+4. Copy and paste the code, in different files, **`first_experiment.py`** then   **`market_regime_filter.py`** followed by **`dynamic_stop_losses.py`** in the article order.
