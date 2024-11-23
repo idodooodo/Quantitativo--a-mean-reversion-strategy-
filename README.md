@@ -14,4 +14,5 @@ pip install backtesting
 pip install pandas
 pip install matplotlib
 pip install yfinance
+
 3. Copy and paste the code of 1st experiment, merket regime filter and dynamic stop losses strategy 
