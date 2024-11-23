@@ -12,4 +12,7 @@ Here is how to test this backtesting strategy :
 Install the necessary dependencies with:
 
 ```bash
-pip install -r requirements.txt
+pip install backtesting
+pip install pandas
+pip install matplotlib
+pip install yfinance
