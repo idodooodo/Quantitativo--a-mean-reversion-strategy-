@@ -27,6 +27,7 @@ pip install bokeh==3.1.0
 - **`first_experiment.py`** – Contains the first strategy experiment.
 - **`market_regime_filter.py`** – Implements the market regime filter.
 - **`dynamic_stop_losses.py`** – Implements the dynamic stop loss strategy.
+5. The output will display two plots: one for the equity curve and another for the drawdown. The statistics will also be shown, and a more detailed plot of the strategy will open in the browser
 ## Troubleshooting
 - If the Bokeh version isn't downgrading properly, try running the following command:
   ```bash
