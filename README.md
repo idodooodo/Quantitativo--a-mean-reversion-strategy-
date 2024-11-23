@@ -2,18 +2,12 @@
 
 ## This repository contains Python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
 
-small paragraph 
+small paragraph, with keywords
 
-## Files
-
-- **first_experiment.py**: Code for the initial experiment applying the mean reversion strategy.
-- **market_regime_filter.py**: Code for the market filter used to refine entry and exit points based on market conditions.
-- **dynamic_stop_losses.py**: Code implementing dynamic stop losses to manage risk and protect profits.
-- **performance_plot.png**: A plot comparing the strategy performance to Buy & Hold on a logarithmic scale.
-- **drawdown_plot.png**: A plot showing the drawdown of the strategy vs Buy & Hold.
-
-## Requirements
-
+## User Instructions
+Here is how to test this backtesting strategy : 
+1. Create virtual environment
+2. Install the following modules: yfinance (pip install yfinance)
 Install the necessary dependencies with:
 
 ```bash
