@@ -8,9 +8,7 @@ Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversio
 ## User Instructions
 Here is how to test this backtesting strategy : 
 1. Create virtual environment
-2. Install the following modules: yfinance (pip install yfinance)
-Install the necessary dependencies with:
-
+2. Install the following modules: 
 ```bash
 pip install backtesting
 pip install pandas
