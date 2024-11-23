@@ -9,7 +9,6 @@ A **mean reversion strategy** is based on the assumption that asset prices will 
 
 The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance from 1999 to 2006 (which is crucial to stay consisten with the results obtained).
 
-
 ## User Instructions
 Here is how to test this backtesting strategy : 
 1. Create a virtual environment
@@ -28,3 +27,8 @@ pip install bokeh==3.1.0
 - **`first_experiment.py`** – Contains the first strategy experiment.
 - **`market_regime_filter.py`** – Implements the market regime filter.
 - **`dynamic_stop_losses.py`** – Implements the dynamic stop loss strategy.
+## Troubleshooting
+- If the Bokeh version isn't downgrading properly, try running the following command:
+  ```bash
+  pip uninstall bokeh
+  pip install bokeh==3.1.0  
