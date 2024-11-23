@@ -6,7 +6,7 @@ I tried to reproduce the three strategies the author quantitativo used in his ar
 
 Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
 
-The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance.
+The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance from 1999 to 2006.
 
 
 ## User Instructions
