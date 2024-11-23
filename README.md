@@ -2,7 +2,8 @@
 
 ## This repository contains Python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
 
-small paragraph, with keywords
+I tried to reproduce the strategies the author quantitativo used in his article.
+Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
 
 ## User Instructions
 Here is how to test this backtesting strategy : 
