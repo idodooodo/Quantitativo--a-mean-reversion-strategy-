@@ -20,4 +20,4 @@ pip install matplotlib
 pip install yfinance
 ```
 
-3. Copy and paste the code of 1st experiment, merket regime filter and dynamic stop losses strategy 
+3. Copy and paste the code, in order, **`first_experiment.py`** then   **`market_regime_filter.py`** followed by **`dynamic_stop_losses.py`** in the article order.
