@@ -2,8 +2,10 @@
 
 ## This repository contains Python backtesting code for the article "A Mean Reversion Strategy with 2.11 Sharpe" presented by Quantitativo. 
 
-I tried to reproduce the three strategies the author quantitativo used in his article. The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance.
+I tried to reproduce the three strategies the author quantitativo used in his article. 
 Here is the link to the article : https://www.quantitativo.com/p/a-mean-reversion-strategy-with-211
+The three python files include the first strategy experiment, followed by the market regime filter and finally the dynamic stop losses. The long&short strategy is not implemented due to lack of data in yahoo finance.
+
 
 ## User Instructions
 Here is how to test this backtesting strategy : 
